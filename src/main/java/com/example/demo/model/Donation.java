@@ -32,11 +32,11 @@ public class Donation {
     private int amount;
 
     @ManyToOne
-    @JoinColumn(name = "donation_type_id", nullable = false)
-    private DonationType donationType;
+    @JoinColumn(name = "idDonationType", nullable = false)
+    private DonationType idDonationType;
 
     @ManyToOne
-    @JoinColumn(name = "donation_state_id", nullable = false)
-    private DonationState donationState;
+    @JoinColumn(name = "idDonationState", nullable = false)
+    private DonationState idDonationState;
 
 }
