@@ -16,7 +16,7 @@ import com.example.demo.model.UserType;
 import com.example.demo.service.UserTypeService;
 
 @RestController
-@RequestMapping("/api/v1/user-types")
+@RequestMapping("/user-types")
 public class UserTypeController {
     
     @Autowired

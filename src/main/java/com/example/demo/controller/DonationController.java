@@ -16,7 +16,7 @@ import com.example.demo.model.Donation;
 import com.example.demo.service.DonationService;
 
 @RestController
-@RequestMapping("/api/v1/donation")
+@RequestMapping("/donation")
 public class DonationController {
     
     @Autowired
