@@ -23,5 +23,5 @@ public class UserType {
     private Long idUserType;
 
     @Column(name = "user_type", nullable = false)
-    private String UserType;
+    private String userType;
 }

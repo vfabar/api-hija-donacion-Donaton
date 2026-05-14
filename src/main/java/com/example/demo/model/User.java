@@ -31,6 +31,6 @@ public class User {
     private String password;
 
     @ManyToOne
-    @JoinColumn(name = "user_type_id",nullable = false)
-    private UserType userType;
+    @JoinColumn(name = "idUserType",nullable = false)
+    private UserType idUserType;
 }
