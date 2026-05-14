@@ -39,4 +39,8 @@ public class Donation {
     @JoinColumn(name = "idDonationState", nullable = false)
     private DonationState idDonationState;
 
+    @ManyToOne
+    @JoinColumn(name = "idUser", nullable = false)
+    private User idUser;
+
 }
